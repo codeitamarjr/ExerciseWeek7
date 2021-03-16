@@ -19,7 +19,7 @@ public class NextDay {
         daysMonth = 29; //if it's true we have 29 days in feb as a leap year
             else daysMonth =28; // if it's false we have 28 days in feb
 
-        System.out.println(daysMonth);
+        //System.out.println(daysMonth);
 
         //Last Day: If the day is the last one the statement will add 1 year and set the result to 1\1
         if (day + 1 > 30 & month + 1 > 12) {
