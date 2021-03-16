@@ -12,14 +12,14 @@ public class BonusScheme {
         System.out.println("How much hours do you absence?");
         int timeAbsence = keyboard.nextInt(),bonusPaid;
 
-        int hourReference = overtimeHour-((2/3)*timeAbsence);
+        double hourReference = overtimeHour-((2/3.0)*timeAbsence);
         if(hourReference>40)
             bonusPaid = 50;
-         else if(hourReference>30 && hourReference<=40)
+         else if(hourReference>30)
             bonusPaid = 40;
-         else if(hourReference>20 && hourReference<=30)
+         else if(hourReference>20)
             bonusPaid = 30;
-         else if(hourReference>10 && hourReference<=20)
+         else if(hourReference>10)
             bonusPaid = 20;
          else
             bonusPaid = 10;
